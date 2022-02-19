@@ -2,10 +2,6 @@
                 margin: 0;
             }
             
-            body {
-                background-color: #fcfaf7;
-            }
-            
             header {
                 background-color: #0f1649;
                 height: 100px;
@@ -18,35 +14,39 @@
                 padding: 20px 64px;
             }
             
-            #article-h1 {
+            article {
+                background-color: #fcfaf7;
+                padding-top: 32px;
+                padding-left: 64px;
+            }
+            
+            .article-React {
                 padding-top: 32px;
                 padding-bottom: 16px;
                 font-size: 72px;
-                font-family: Times New Roman;
+                font-family: 'Times New Roman';
                 font-weight: bold;
             }
             
-            #article-h2 {
+            .article-Learn {
                 padding-top: 72px;
                 padding-bottom: 16px;
                 font-size: 24px;
                 font-weight: bold;
-                font-family: Courier New;
+                font-family: 'Courier New';
                 color: rgba(14, 22, 73, 0.8);
                 letter-spacing: -0.48px;
             }
             
-            #article-div {
-                padding-left: 64px;
-            }
-            
             #javascript {
                 font-family: Courier New;
+                width: 691px;
                 font-size: 26px;
+                letter-spacing: -1.56px;
                 padding-bottom: 24px;
             }
             
-            #buttons {
+            .buttons {
                 padding-top: 10px;
                 display: inline-block;
             }
@@ -112,9 +112,8 @@
                 color: #fb3;
             }
             
-            #react-native {
+            P {
                 width: 648px;
-                height: 108px;
                 font-family: Arial;
                 color: #1c1c1c;
                 text-align: left;
@@ -122,18 +121,7 @@
                 font-size: 18px;
             }
             
-            #react-component {
-                width: 648px;
-                height: 108px;
-                font-family: Arial;
-                color: #1c1c1c;
-                text-align: left;
-                line-height: 1.5;
-                font-size: 18px;
-                margin-bottom: 80px;
-            }
-            
-            #point {
+            .point {
                 width: 648px;
                 height: 1px;
                 margin-top: 41px;
@@ -141,7 +129,7 @@
                 background-color: #e1e1e1;
             }
             
-            #Component-h2 {
+            h2 {
                 padding-bottom: 16px;
                 font-size: 24px;
                 font-weight: bold;
@@ -150,17 +138,21 @@
                 letter-spacing: -0.48px;
             }
             
-            #img-code {
-                margin-top: 40px;
+            .img-code {
+                padding-top: 40px;
                 width: 648px;
                 height: 414px;
             }
             
-            #img-code2 {
+            .img-code2 {
                 width: 648px;
                 padding-top: 180px;
                 height: 287px;
                 margin-bottom: 58px;
+            }
+            
+            #react-native {
+                background-color: #cfd0d6;
             }
             
             ol {
@@ -187,7 +179,7 @@
                 padding-left: 20px;
             }
             
-            #last-link {
+            .last-link {
                 color: #ff7748;
                 font-family: Arial;
                 font-size: 18px;
