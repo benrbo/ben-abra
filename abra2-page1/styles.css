@@ -1,0 +1,195 @@
+            * {
+                margin: 0;
+            }
+            
+            body {
+                background-color: #fcfaf7;
+            }
+            
+            header {
+                background-color: #0f1649;
+                height: 100px;
+                width: 100%;
+            }
+            
+            header img {
+                width: 242px;
+                height: 60px;
+                padding: 20px 64px;
+            }
+            
+            #article-h1 {
+                padding-top: 32px;
+                padding-bottom: 16px;
+                font-size: 72px;
+                font-family: Times New Roman;
+                font-weight: bold;
+            }
+            
+            #article-h2 {
+                padding-top: 72px;
+                padding-bottom: 16px;
+                font-size: 24px;
+                font-weight: bold;
+                font-family: Courier New;
+                color: rgba(14, 22, 73, 0.8);
+                letter-spacing: -0.48px;
+            }
+            
+            #article-div {
+                padding-left: 64px;
+            }
+            
+            #javascript {
+                font-family: Courier New;
+                font-size: 26px;
+                padding-bottom: 24px;
+            }
+            
+            #buttons {
+                padding-top: 10px;
+                display: inline-block;
+            }
+            
+            .btn {
+                width: 205px;
+                height: 55px;
+                background-color: #ff9f00;
+                font-weight: bold;
+                color: white;
+                font-size: 22px;
+                font-family: Arial;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+            }
+            
+            .btn:hover {
+                background: #f08e0e;
+                color: #FFF;
+            }
+            
+            .btn:focus {
+                background: #f08e0e;
+                color: #FFF;
+            }
+            
+            .btn:active {
+                background: #fb3;
+                color: #FFF;
+            }
+            
+            .btn2 {
+                width: 205px;
+                height: 55px;
+                background-color: #fcfaf7;
+                font-weight: bold;
+                color: #ff9f00;
+                font-size: 22px;
+                font-family: Arial;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: solid 2px #ff9f00;
+                border-radius: 12px;
+                cursor: pointer;
+            }
+            
+            .btn2:hover {
+                border: solid 2px #ff9f00;
+                color: #ff9f00;
+            }
+            
+            .btn2:focus {
+                border: solid 2px #d87a00;
+                background-color: #faefdd;
+                color: #d87a00;
+            }
+            
+            .btn2:active {
+                border: solid 2px #fb3;
+                color: #fb3;
+            }
+            
+            #react-native {
+                width: 648px;
+                height: 108px;
+                font-family: Arial;
+                color: #1c1c1c;
+                text-align: left;
+                line-height: 1.5;
+                font-size: 18px;
+            }
+            
+            #react-component {
+                width: 648px;
+                height: 108px;
+                font-family: Arial;
+                color: #1c1c1c;
+                text-align: left;
+                line-height: 1.5;
+                font-size: 18px;
+                margin-bottom: 80px;
+            }
+            
+            #point {
+                width: 648px;
+                height: 1px;
+                margin-top: 41px;
+                margin-bottom: 40px;
+                background-color: #e1e1e1;
+            }
+            
+            #Component-h2 {
+                padding-bottom: 16px;
+                font-size: 24px;
+                font-weight: bold;
+                font-family: Arial;
+                color: #1c1c1c;
+                letter-spacing: -0.48px;
+            }
+            
+            #img-code {
+                margin-top: 40px;
+                width: 648px;
+                height: 414px;
+            }
+            
+            #img-code2 {
+                width: 648px;
+                padding-top: 180px;
+                height: 287px;
+                margin-bottom: 58px;
+            }
+            
+            ol {
+                font-family: Arial;
+                color: #1c1c1c;
+                width: 648px;
+                height: 160px;
+                font-size: 18px;
+                line-height: 1.78;
+            }
+            
+            ul {
+                padding-left: 20px;
+                font-family: Arial;
+                color: #1c1c1c;
+                width: 648px;
+                height: 160px;
+                line-height: 1.78;
+                font-size: 18px;
+                list-style-type: disc;
+            }
+            
+            ol li .indent {
+                padding-left: 20px;
+            }
+            
+            #last-link {
+                color: #ff7748;
+                font-family: Arial;
+                font-size: 18px;
+                padding-bottom: 58px;
+            }
