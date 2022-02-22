@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css-reset.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>
+            <ul class="menu">
+                <li class="current"><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="login">
+        <h1>Login form</h1>
+        <p>Fill out the form below to login my super awesome React course! Hurry!</p>
+        <label>
+
+        <form>
+        <label id="label-style" for="email">Email</label><br>
+        <input type="email" id="email" placeholder="abra@labs.com "><br>
+        <label id="label-style" for="password">Password</label><br>
+        <input type="password" id="password" minlength="6" placeholder="Must be at least 6 characters "><br>
+        <input type="submit" value="Login">
+        </form>
+        <p id="last-p">Don’t have an account?
+            <a id="last-a" href="#">Sign up right now!</a>
+        </p>
+    </section>
+</body>
+
+</html>
