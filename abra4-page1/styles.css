@@ -1,0 +1,82 @@
+
+.main-container {
+    position: relative;
+    width: 870px;
+    height: 560px;
+    margin-top: 232px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0e1649;
+}
+
+.main-container h1 {
+    text-align: center;
+    padding-top: 238px;
+    font-family: Assistant;
+    font-size: 64px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fcfaf7;
+}
+.logo {
+    position: absolute;
+    top : 61px;
+    left : -137px;
+}
+
+.big-polygon {
+    position: absolute;
+    top : -75px;
+    right : 166px;
+}
+
+.big-ellipse {
+    position: absolute;
+    top : -131px;
+    right: -131px;
+    width: 263px;
+    height: 263px;
+    background-color: #ff9f00;
+    border-radius: 200px;
+}
+
+.big-rectangle {
+    position: absolute;
+    top: 172px;
+    right: -67px;
+    width: 134px;
+    height: 134px;
+    background-color: #ff7748;
+}
+
+.big-rectangle2 {
+    position: absolute;
+    top : 494px;
+    left: -67px;
+    width: 134px;
+    height: 134px;
+    background-color: #ff7748;
+
+}
+
+.small-polygon {
+    width: 131px;
+    height: 132px;
+    position: absolute;
+    top : 295px;
+    left: -67px;
+}
+
+.small-ellipse {
+    position: absolute;
+    top : 506px;
+    left: 126px;
+    width: 104px;
+    height: 104px;
+    background-color: #ff9f00;
+    border-radius: 200px;
+}
