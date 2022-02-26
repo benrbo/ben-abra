@@ -110,15 +110,9 @@ body{
   position: relative;
 }
 
-p{
-  font-size: 18px;
-  color: #1c1c1c;
-  text-align: left;
-  line-height: 1.5;
-}
-
 h1{
   font-size: 24px;
+  width: 100%;
   text-align: left;
   color: #1c1c1c;
   font-weight: bold;
@@ -156,19 +150,46 @@ h1{
 .btn:active {
   background: #ff8d66;
 }
-
-@media screen and (max-width:500px) {
-  .footer-1,  .footer-2, .footer-3, .main-2, .main-2 p {
-      width: 100%;
+@media screen and (max-width: 700px) {
+  .continer, .footer, .footer-1,  .footer-2, .footer-3, .main-2 p {
+    width: 100%;
+    height: auto;
   }
   .menu{
     width: 100%;
-    height: 520px;
+    height: auto;
   }
   .main{
     width: 100%;
-    background-size: 600px 921px;
+    height: auto;
+    background-size: auto;
     background-position: center;
 
+  }
+  .main-2{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .footer, .footer-1,  .footer-2, .footer-3 {
+      width: 100%;
+      height: auto;
+  }
+  .menu{
+    width: 100%;
+    height: auto;
+  }
+  .main{
+    width: 100%;
+    height: auto;
+    background-position: center;
+  }
+  .main-2{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
   }
 }
