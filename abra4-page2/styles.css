@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial;
+}
+
+.menu {
+  background-color: #0e1649;
+  float: left;
+  padding-left: 64px;
+  width: 25%;
+  height: 1080px;
+  text-align: center;
+}
+
+.menu img {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.main {
+  background-color: #CC6600;
+  background-image: url("./assets/woman-img.png");
+  background-position: center;
+  background-size: 1577px 821px;
+  float: left;
+  width: 75%;
+  height: 821px;
+  position: relative;
+}
+
+.main-2{
+  padding-top: 238px;
+  padding-left: 175px;
+}
+
+.main-2 p{
+  font-size: 16px;
+  color: #1c1c1c;
+  width: 581px;
+  padding-bottom: 16px;
+}
+
+.main-2 h1{
+  font-size: 72px;
+  font-family: Times New Roman;
+  color: #0e1649;
+}
+
+.nav a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 24px;
+  text-decoration: none;
+  text-align: left;
+}
+ 
+.nav a.active {
+  color: white;
+  text-decoration: underline;
+
+}
+
+.nav a:hover:not(.active) {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-1 {
+  background-color: #ff9f00;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  width: 25%;
+  height: 259px;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 32px;
+  position: relative;
+}
+
+.footer-2 {
+  background-color: #ff7748;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  width: 25%;
+  height: 259px;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 32px;
+  position: relative;
+}
+
+.footer-3 {
+  background-color: #ff5288;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  width: 25%;
+  height: 259px;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 32px;
+  position: relative;
+}
+
+p{
+  font-size: 18px;
+  color: #1c1c1c;
+  text-align: left;
+  line-height: 1.5;
+}
+
+h1{
+  font-size: 24px;
+  text-align: left;
+  color: #1c1c1c;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  padding-top: 16px;
+}
+
+.text{
+  width: 100%;
+}
+
+.btn {
+  width: 157px;
+  height: 56px;
+  background-color: #ff9f00;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  font-family: Assistant;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f08e0e;
+}
+
+.btn:focus {
+  background: #f08e0e;
+}
+
+.btn:active {
+  background: #ff8d66;
+}
+
+@media screen and (max-width:500px) {
+  .footer-1,  .footer-2, .footer-3, .main-2, .main-2 p {
+      width: 100%;
+  }
+  .menu{
+    width: 100%;
+    height: 520px;
+  }
+  .main{
+    width: 100%;
+    background-size: 600px 921px;
+    background-position: center;
+
+  }
+}
