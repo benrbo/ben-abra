@@ -150,6 +150,7 @@ h1{
 .btn:active {
   background: #ff8d66;
 }
+
 @media screen and (max-width: 700px) {
   .continer, .footer, .footer-1,  .footer-2, .footer-3, .main-2 p {
     width: 100%;
