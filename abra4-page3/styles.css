@@ -49,50 +49,51 @@ body{
 }
   
 .section-text h1{
-    font-family: Arial;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.69;
-    text-align: left;
-    color: #1c1c1c;
-    padding-bottom: 16px;
-    text-transform: uppercase;
-  }
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.69;
+  text-align: left;
+  color: #1c1c1c;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+ }
   
 .section-text h2{
-    font-family: Arial;
-    font-size: 24px;
-    letter-spacing: 0.48px;
-    text-align: left;
-    color: #1c1c1c;
-    font-weight: bold;
-    padding-bottom: 16px;
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #1c1c1c;
+  font-weight: bold;
+  padding-bottom: 16px;
 }
 
 .section-text p{
-    font-family: Arial;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: left;
-    color: #1c1c1c;
-    padding-bottom: 16px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1c1c1c;
+  padding-bottom: 16px;
 }
 
 .section-text a{
-    font-family: Arial;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: left;
-    color: #ff7748;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ff7748;
 }
 
+
 .section-text hr{
-    margin-top: 39px;
-    margin-bottom: 39px;
-    height: 1px;
-    flex-grow: 0;
-    opacity: 0.2;
-    background-color: #0e1649;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  height: 1px;
+  flex-grow: 0;
+  opacity: 0.2;
+  background-color: #0e1649;
 }
 
 .section-a{
@@ -177,6 +178,7 @@ body{
 
 li{
   font-size: 18px;
+
 }
 
 @media screen and (max-width: 700px) {

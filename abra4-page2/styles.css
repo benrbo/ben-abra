@@ -71,57 +71,65 @@ body{
   text-decoration: underline;
 }
 
-.footer-1 {
+.card-box{
+width: 100%;
+}
+
+.card-1 {
   background-color: #ff9f00;
   background-position: center;
   background-size: cover;
   float: left;
   width: 25%;
   height: 259px;
-  text-align: left;
   padding-left: 32px;
   padding-top: 32px;
   position: relative;
 }
 
-.footer-2 {
+.card-2 {
   background-color: #ff7748;
   background-position: center;
   background-size: cover;
   float: left;
   width: 25%;
   height: 259px;
-  text-align: left;
   padding-left: 32px;
   padding-top: 32px;
   position: relative;
 }
 
-.footer-3 {
+.card-3 {
   background-color: #ff5288;
   background-position: center;
   background-size: cover;
   float: left;
   width: 25%;
   height: 259px;
-  text-align: left;
   padding-left: 32px;
   padding-top: 32px;
   position: relative;
 }
 
-h1{
-  font-size: 24px;
+.text{
   width: 100%;
   text-align: left;
+}
+
+.text p{
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  color: #1c1c1c;
+}
+
+.text h1{
+  font-size: 24px;
+  width: 100%;
   color: #1c1c1c;
   font-weight: bold;
   letter-spacing: 0.48px;
   padding-top: 16px;
-}
-
-.text{
-  width: 100%;
 }
 
 .btn {
@@ -152,7 +160,7 @@ h1{
 }
 
 @media screen and (max-width: 700px) {
-  .continer, .footer, .footer-1,  .footer-2, .footer-3, .main-2 p {
+  .continer, .card, .card-1,  .card-2, .card-3, .main-2 p {
     width: 100%;
     height: auto;
   }
@@ -175,7 +183,7 @@ h1{
 }
 
 @media screen and (max-width:500px) {
-  .footer, .footer-1,  .footer-2, .footer-3 {
+  .footer, .card-1,  .card-2, .card-3 {
       width: 100%;
       height: auto;
   }
