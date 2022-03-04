@@ -73,6 +73,7 @@ body{
 
 .card-box{
 width: 100%;
+
 }
 
 .card-1 {
@@ -183,7 +184,7 @@ width: 100%;
 }
 
 @media screen and (max-width:500px) {
-  .footer, .card-1,  .card-2, .card-3 {
+  .card, .card-1,  .card-2, .card-3 {
       width: 100%;
       height: auto;
   }
