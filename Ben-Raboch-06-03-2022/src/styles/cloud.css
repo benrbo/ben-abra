@@ -1,4 +1,7 @@
-
+  .logo{
+	width: 100%;
+  }
+  
   .cloudwrap {
 	position: absolute;
 	top: 50%;
