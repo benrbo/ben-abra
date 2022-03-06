@@ -13,4 +13,10 @@ code {
     monospace;
 }
 
+body[data-theme=dark] {
+  background-image: url("./assets/images/Backgroundark.svg");
+  color: white;
+  transition: background-color 1050ms ease-in-out;
+}
+
 

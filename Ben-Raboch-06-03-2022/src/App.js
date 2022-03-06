@@ -7,12 +7,12 @@ import WeatherPage from "./pages/Weather";
 import FavoritesPage from "./pages/Favorites";
 
 
-function App() {
-  let theme = createMuiTheme();
-  theme = responsiveFontSizes(theme);
 
+function App() {
+  let dark = createMuiTheme();
+  dark = responsiveFontSizes(dark);
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={dark}>
       <Page duration={1} loader={"bubble-spin"} color={"#1e8cba"} size={20}>
         <Router>
           <NavBar />

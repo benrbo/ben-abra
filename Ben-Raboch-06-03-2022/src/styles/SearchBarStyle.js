@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
       display: "flex",
       alignItems: "flex-end",
       justifyContent: "center",
-      margin: "4rem 0"
+      margin: "4rem 0",
     },
     searchIcon: {
       padding: theme.spacing(0, 1),
