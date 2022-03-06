@@ -18,7 +18,7 @@ const useStyles = makeStyles({
       justifyContent: "center"
     },
     margin: {
-      marginRight: "1rem",
+      marginRight: "0.5rem",
     }
   });
 

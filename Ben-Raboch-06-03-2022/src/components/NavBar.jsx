@@ -23,7 +23,7 @@ const navItems = [
   },
 ]
 
-export default function Navbar() {
+export default function Navbar({ showResults }) {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -39,7 +39,7 @@ export default function Navbar() {
   return (
     <AppBar position="static" className={classes.navbar}>
       <Toolbar className={classes.container}>
-      <svg class="svg2" viewBox='0 30 100 100'>
+        <svg class="svg2" viewBox='0 30 100 100'>
           <path d="m 20 50 a 10 10 1 0 0 0 20 h 50 a 0.5 0.5 0 0 0 0 -25 a 0.5 0.5 0 0 0 -27 -3 a 0.5 0.5 0 0 0 -23 8 m 9 20 c 22 23 34 1 37 0 m 15 0" fill="white" />
         </svg>
         

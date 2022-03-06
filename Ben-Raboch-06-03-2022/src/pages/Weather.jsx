@@ -16,11 +16,15 @@ import appActions from "../redux/actions/appActions";
 import SearchBar from "../components/SearchBar";
 import ForecastCard from "../components/ForecastCard";
 import { useStyles } from '../styles/WeatherStyle';
+import Switch from '@mui/material/Switch';
+
+const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 const DEFAULT_CITY = {
   name: "Tel Aviv, Israel",
   id: "215854"
 };
+
 
 export default function WeatherPage() {
   const classes = useStyles();
@@ -32,6 +36,15 @@ export default function WeatherPage() {
   const [forecastData, setForecastData] = useState([]);
   const [isFavorite, setIsFavorite] = useState(false);
   const [errorMessage, setErrorMessage] = useState(null);
+  const [showResults, setShowResults] = React.useState(false);
+  const onClick = () => {
+    setShowResults(true)
+    if (showResults) {
+      setShowResults(false)
+    }
+  }
+  const temptof=Math.round(currentConditions.Temperature?.Metric?.Value);
+
 
   useEffect(() => {
     if (location?.state?.city) {
@@ -87,6 +100,7 @@ export default function WeatherPage() {
     <Container className={classes.container}>
       <SearchBar setCurrentCity={setCurrentCity} currentCity={currentCity} setErrorMessage={setErrorMessage} />
       <Paper variant="outlined" className={classes.root}>
+        <span>C</span>   <Switch {...label} onClick={onClick} />  <span>F</span>
         <Snackbar
           anchorOrigin={{
             vertical: "bottom",
@@ -139,12 +153,14 @@ export default function WeatherPage() {
 
         <div className={classes.currentConditions}>
           <Typography variant="h6">{currentConditions.WeatherText}</Typography>
-          <Typography variant="h2">{Math.round(currentConditions.Temperature?.Metric?.Value)}°C</Typography>
+          <Typography variant="h2">
+          { showResults ? (Math.round((temptof* 9 / 5)+32)) +"°F" : temptof+"°C" }
+            </Typography>
         </div>
 
         <div className={classes.scrollContainer}>
           <div className={classes.forecast}>
-            
+
             {forecastData.map(days => {
               return (
                 <ForecastCard
@@ -153,6 +169,7 @@ export default function WeatherPage() {
                   day={getWeekday(days.Date)}
                   date={days.Date}
                   temperature={days.Temperature}
+                  showResults={showResults}
                 />
               )
             })}

@@ -7,9 +7,11 @@ import {useStyles} from '../styles/ForecastCardStyle';
 import moment from 'moment';
 
 
-
-export default function ForecastCard({ icon, day, temperature, date }) {
+export default function ForecastCard({ icon, day, temperature, date, showResults  }) {
   const classes = useStyles();
+  const fMaximum=Math.round(temperature.Maximum.Value);
+  const fMinimum=Math.round(temperature.Minimum.Value)
+
   return (
     <Card className={classes.root}>
       <CardContent className={classes.content}>
@@ -25,10 +27,10 @@ export default function ForecastCard({ icon, day, temperature, date }) {
 
         <div className={classes.container}>
           <Typography variant="subtitle1" className={classes.margin}>
-           Day {Math.round(temperature.Maximum.Value)}°
+          { showResults ? "Day " + (Math.round((fMaximum* 9 / 5)+32)) +"°F" : "Day " + fMaximum+"°" }
             </Typography>
           <Typography variant="subtitle1" color="textSecondary">
-          Night {Math.round(temperature.Minimum.Value)}°
+          { showResults ? "Night " + (Math.round((fMinimum* 9 / 5)+32)) +"°F" : "Night " + fMinimum+"°" }
             </Typography>
         </div>
       </CardContent>
