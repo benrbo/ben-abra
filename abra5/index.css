@@ -1,0 +1,38 @@
+body {
+    font-family: Courier New;
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#guessed_number {
+    width: 100px;
+    border-radius: 50px;
+}
+
+#guess_button {
+    border-radius: 50px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.visable {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#new_game {
+    margin-top: 10px;
+}

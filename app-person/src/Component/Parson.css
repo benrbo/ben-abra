@@ -1,0 +1,10 @@
+.Parson{
+    background-color: gray;
+    align-items: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:5px;
+    margin-left: 5px;
+    text-align: center;
+}
