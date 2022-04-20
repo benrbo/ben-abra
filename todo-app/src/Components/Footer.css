@@ -1,0 +1,10 @@
+.Footer{
+    height: 360px;
+    margin-top: 279px;
+}
+
+.Img-Footer{
+    width: 100%;
+    height: 360px;
+    object-fit: contain;
+}

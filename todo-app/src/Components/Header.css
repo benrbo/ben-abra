@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto&display=swap');
+
+
+header{
+    background-color: #0e1649;
+    height: 60px;
+    margin: 0 0 64px;
+    padding-left: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin-right: 8px;
+}
+
+.To-Do-Text{
+    font-family: 'Grape Nuts', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    color: #fff;
+    flex: 0;
+}

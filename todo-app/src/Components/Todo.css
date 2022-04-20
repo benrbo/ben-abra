@@ -1,0 +1,29 @@
+.completed {
+    text-decoration: line-through;
+}
+
+p {
+    margin-left: 64px;
+    margin-top: 16px;
+    display: flex;
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: solid 1px #8c8c8c;
+    margin-right: 8px;
+}
+
+
+.img-x {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;  
+    display: none;
+}
+
+p:hover .img-x{
+    display: block;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.Todo-Form{
+    margin-top: 16px;
+    margin-left: 64px;
+}
+
+.Todo-Form button{
+    width: 95px;
+    height: 40px;  
+    background-color: #0e1649;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin-left: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 332px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #000;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #000;  
+  }
