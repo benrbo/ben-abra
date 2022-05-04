@@ -6,6 +6,8 @@ p {
     margin-left: 64px;
     margin-top: 16px;
     display: flex;
+    line-height: 1.5;
+    text-decoration: none;
 }
 
 input[type=checkbox] {
@@ -16,12 +18,16 @@ input[type=checkbox] {
     margin-right: 8px;
 }
 
+input[type=checkbox]:checked p{
+    text-decoration: line-through;
+}
 
 .img-x {
     margin-left: 8px;
     width: 24px;
     height: 24px;  
     display: none;
+    line-height: 1;
 }
 
 p:hover .img-x{

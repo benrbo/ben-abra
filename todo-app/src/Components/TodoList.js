@@ -5,7 +5,8 @@ const TodoList = ({todos, toggleCompleteTodo, deleteTodo, ...props}) => {
         <>
             {todos.map( (todo,idx) => {
                 return <Todo key={idx} 
-                             id={idx} 
+                             id={idx}
+                             
                              isComplete={todo.isComplete} 
                              text={todo.text} 
                              deleteTodo={deleteTodo}

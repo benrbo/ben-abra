@@ -7,12 +7,6 @@ import Footer from './Components/Footer';
 
 function App() {
   const [todos, setTodos] = useState([]);
-  const [checked, setChecked] = useState(false);
-
-
-  const handleChangechecked = () => {
-    setChecked(!checked);
-  };
 
   const addNewTodo = (todo) => {
     const newTodos = [...todos];
@@ -25,7 +19,6 @@ function App() {
     newTodos.splice(id, 1);
     console.log(newTodos);
     setTodos(newTodos);
-
   }
 
   const ToggleComplete = (id) => {
@@ -38,10 +31,11 @@ function App() {
     <div className="ToddApp">
       <Header />
       <h1>My todos:</h1>
-      <TodoList todos={todos}
-        checked={handleChangechecked}
+      <TodoList
+        todos={todos}
         deleteTodo={deleteTodo}
-        toggleCompleteTodo={ToggleComplete} />
+        toggleCompleteTodo={ToggleComplete}
+      />
       <TodoForm addNewTodo={addNewTodo} />
       <Footer />
     </div>

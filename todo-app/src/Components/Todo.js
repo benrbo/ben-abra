@@ -1,7 +1,8 @@
+
 import "./Todo.css";
 import icon from '../asset/image/icon.png';
 
-const Todo = ({ id, text, isComplete, deleteTodo, toggleCompleteTodo, ...props }) => {
+const Todo = ({ id, text, deleteTodo, isComplete, toggleCompleteTodo, ...props }) => {
 
     const deleteTodoHandler = (event) => {
         event.stopPropagation();
@@ -10,9 +11,12 @@ const Todo = ({ id, text, isComplete, deleteTodo, toggleCompleteTodo, ...props }
     const toggleCompleteHandler = (event) => {
         toggleCompleteTodo(id);
     }
+
+    
     return (
         <div>
-            <p className={isComplete ? "completed" : ""}> <input onClick={toggleCompleteHandler} type="checkbox" />
+            <p>
+                <input onClick={toggleCompleteHandler} type="checkbox"  checked={isComplete}/>
                 {text}
                 <img src={icon} alt="Logo" onClick={deleteTodoHandler} className="img-x" />
             </p >
